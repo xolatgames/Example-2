@@ -1,0 +1,64 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/Rect.gd" type="Script" id=1]
+
+[node name="Rect" type="ColorRect"]
+margin_left = 32.0
+margin_top = 32.0
+margin_right = 192.0
+margin_bottom = 192.0
+rect_min_size = Vector2( 160, 160 )
+script = ExtResource( 1 )
+
+[node name="code" type="Label" parent="."]
+margin_left = 32.0
+margin_top = 32.0
+margin_right = 96.0
+margin_bottom = 46.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "A124KH"
+
+[node name="line" type="Label" parent="."]
+margin_left = 64.0
+margin_top = 32.0
+margin_right = 128.0
+margin_bottom = 46.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "/"
+align = 1
+
+[node name="id" type="Label" parent="."]
+margin_left = 96.0
+margin_top = 32.0
+margin_right = 128.0
+margin_bottom = 46.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "99"
+align = 2
+
+[node name="speed" type="Label" parent="."]
+margin_left = 32.0
+margin_top = 64.0
+margin_right = 128.0
+margin_bottom = 80.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "60"
+align = 1
+
+[node name="k and h" type="Label" parent="."]
+margin_left = 32.0
+margin_top = 96.0
+margin_right = 128.0
+margin_bottom = 112.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "K/h"
+align = 1
+
+[node name="distance" type="Label" parent="."]
+margin_left = 32.0
+margin_top = 128.0
+margin_right = 128.0
+margin_bottom = 144.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "6M"
+align = 1
