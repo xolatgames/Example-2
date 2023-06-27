@@ -15,7 +15,9 @@ margin_left = 32.0
 margin_top = 32.0
 margin_right = 96.0
 margin_bottom = 46.0
-custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_constants/shadow_as_outline = 1
 text = "A124KH"
 
 [node name="line" type="Label" parent="."]
@@ -23,7 +25,9 @@ margin_left = 64.0
 margin_top = 32.0
 margin_right = 128.0
 margin_bottom = 46.0
-custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_constants/shadow_as_outline = 1
 text = "/"
 align = 1
 
@@ -32,7 +36,9 @@ margin_left = 96.0
 margin_top = 32.0
 margin_right = 128.0
 margin_bottom = 46.0
-custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_constants/shadow_as_outline = 1
 text = "99"
 align = 2
 
@@ -41,7 +47,9 @@ margin_left = 32.0
 margin_top = 64.0
 margin_right = 128.0
 margin_bottom = 80.0
-custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_constants/shadow_as_outline = 1
 text = "60"
 align = 1
 
@@ -50,7 +58,9 @@ margin_left = 32.0
 margin_top = 96.0
 margin_right = 128.0
 margin_bottom = 112.0
-custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_constants/shadow_as_outline = 1
 text = "K/h"
 align = 1
 
@@ -59,6 +69,8 @@ margin_left = 32.0
 margin_top = 128.0
 margin_right = 128.0
 margin_bottom = 144.0
-custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_constants/shadow_as_outline = 1
 text = "6M"
 align = 1
