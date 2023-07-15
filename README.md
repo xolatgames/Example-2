@@ -6,13 +6,13 @@
 
 Вид массива:
 [
-	{
-		id : Integer, / уникальный ID
-		code : String, / номер авто
-		color: String, / цвет
-		speed: Float, / скорость
-		distance: Float / расстояние
-	}
+	<br>{
+		<br>id : Integer, / уникальный ID
+		<br>code : String, / номер авто
+		<br>color: String, / цвет
+		<br>speed: Float, / скорость
+		<br>distance: Float / расстояние
+	<br>}
 ]
 
 Размер массива — любой, но не менее 10 элементов.
